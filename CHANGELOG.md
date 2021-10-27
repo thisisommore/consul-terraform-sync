@@ -6,6 +6,8 @@ IMPROVEMENTS:
 BUG FIXES:
 * **(Enterprise Only)** Fix issue where configured service block filter was not being used to filter monitored service instances when using the Terraform Cloud driver. [[GH-454](https://github.com/hashicorp/consul-terraform-sync/issues/454)]
 * Fix Services Regex and Catalog Services conditions to use Consul API blocking queries. [[GH-460](https://github.com/hashicorp/consul-terraform-sync/pull/460)]
+* Fix issue where choosing to cancel when using the Enable CLI still enabled the task. [[GH-451](https://github.com/hashicorp/consul-terraform-sync/issues/451)]
+* Fix issue where Update Task API unexpectedly updated the task when running with inspect mode. [[GH-465](https://github.com/hashicorp/consul-terraform-sync/issues/465)]
 
 ## 0.4.0 (October 13, 2021)
 KNOWN ISSUES:
