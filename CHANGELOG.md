@@ -1,4 +1,6 @@
 ## UNRELEASED
+FEATURES:
+* Support TLS and mutual TLS for the CTS API and CLI. [[GH-466](https://github.com/hashicorp/consul-terraform-sync/issues/466)]
 
 IMPROVEMENTS:
 * **(Enterprise Only)** Add default address for the Terraform Cloud driver to https://app.terraform.io.
